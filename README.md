@@ -12,3 +12,8 @@ This is a demo repo for sharing ideas around comunication
 ### Gist example
 
 This is a good example of [my code](https://gist.github.com/emeierd/bade99d64706e8c09772f375d55c8c87)
+
+
+### Colab example
+
+This is the [notebook](https://github.com/emeierd/technical-discussion/blob/main/github-ex.ipynb)
