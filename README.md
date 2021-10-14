@@ -23,3 +23,4 @@ This is the [notebook](https://github.com/emeierd/technical-discussion/blob/main
 ![image](https://user-images.githubusercontent.com/36177774/115977327-e13a8500-a544-11eb-8c3f-8c8aa2340179.png)
 
 14/10/2021
+2
