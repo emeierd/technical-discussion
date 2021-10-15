@@ -1,4 +1,4 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["compute", "ssh", "apitest", "--zone=southamerica-east1-b", "--command='git --version'"]
+  args: ["compute", "ssh", "apitest", "--zone=southamerica-east1-b", "--command='git --version'", "--project", "cool-tree-325213"]
 timeout: "1600s"
