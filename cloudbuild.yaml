@@ -1,6 +1,6 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["compute", "ssh", "apitest", "--zone=southamerica-east1-b", "--command='git --version'", "--project"]
+  args: ["compute", "ssh", "apitest", "--zone=southamerica-east1-b", "--command='git --version'"]
 timeout: "1600s"
 options:
  logging: CLOUD_LOGGING_ONLY
