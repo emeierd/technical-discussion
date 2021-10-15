@@ -1,6 +1,6 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["compute", "ssh", "apitest", "--zone=southamerica-east1-b", "--command='ls /home'"]
+  args: ["compute", "ssh", "apitest", "--zone=southamerica-east1-b", "--command='exit'"]
 timeout: "1600s"
 options:
  logging: CLOUD_LOGGING_ONLY
