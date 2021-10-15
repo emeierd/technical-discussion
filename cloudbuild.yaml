@@ -1,5 +1,6 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
+  entrypoint : bin/sh
   args: ["compute", "ssh", "emeierd92@apitest", "--zone=southamerica-east1-b", "--command='git -C testgitgcp/technical-discussion/ pull'"]
 timeout: "1600s"
 options:
