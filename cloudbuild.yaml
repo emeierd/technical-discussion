@@ -1,6 +1,6 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["compute", "ssh", "emeierd92@apitest", "--zone=southamerica-east1-b", "--command='pwd ; cd /home/emeierd92/testgitgcp/technical-discussion/ ; pwd; git pull'"]
+  args: ["compute", "ssh", "emeierd92@apitest", "--zone=southamerica-east1-b", "--command='pwd ; ls'"]
 timeout: "1600s"
 options:
  logging: CLOUD_LOGGING_ONLY
