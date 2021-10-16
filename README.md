@@ -30,3 +30,4 @@ This is the [notebook](https://github.com/emeierd/technical-discussion/blob/main
 # xD
 6
 67
+funciona
