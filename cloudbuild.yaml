@@ -1,6 +1,6 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["beta", "compute", "ssh","--zone", "'southamerica-east1-b'", "apitest", "--project", "'cool-tree-325213'", "--command" , "'/bin/ls /home/emeierd92/testgitgcp/technical-discussion'"]
+  args: ["beta", "compute", "ssh","--zone", "'southamerica-east1-b'", "apitest", "--project", "cool-tree-325213", "--command" , "'/bin/ls /home/emeierd92/testgitgcp/technical-discussion'"]
 timeout: "1600s"
 options:
  logging: CLOUD_LOGGING_ONLY
