@@ -27,7 +27,4 @@ This is the [notebook](https://github.com/emeierd/technical-discussion/blob/main
 3
  ## rr
 23
-# xD
-6
-67
-funciona
+
